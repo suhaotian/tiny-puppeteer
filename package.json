@@ -1,14 +1,11 @@
 {
   "name": "tiny-puppeteer",
   "description": "Install puppeteer faster",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "main": "index.js",
   "license": "MIT",
   "repository": "github:suhaotian/tiny-puppeteer",
   "dependencies": {
-    "chrome-launcher": "^0.10.2"
-  },
-  "scripts": {
-    "preinstall": "npm install puppeteer --ignore-scripts"
+    "puppeteer-core": "^1.9.0"
   }
 }
