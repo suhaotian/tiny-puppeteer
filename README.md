@@ -15,7 +15,7 @@ npm install tiny-puppeteer
 ## Usage
 
 ```js
-const {launch} = require("tiny-puppeteer");
+const launch = require("tiny-puppeteer");
 const browser = await launch({
   headless: false,
   // executablePath: default is use chrome path
